@@ -41,6 +41,12 @@ on your carpet...
 Building and installing
 =======================
 
+For Debian Squeeze (testing) create /etc/modprobe.d/thinkpad_acpi.conf with: 
+
+`options thinkpad_acpi fan_control=1`
+
+and install the package thinkfan
+
 1. In the thinkfan main directory, do
     mkdir build && cd build
 
